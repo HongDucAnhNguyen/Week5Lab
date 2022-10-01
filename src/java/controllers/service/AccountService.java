@@ -12,8 +12,15 @@ import models.User;
  * @author nguye
  */
 public class AccountService {
+    User user = new User();
     public AccountService(){}
     public User login(String username, String password){
-        return new User(username, password);
+        if((username.equals("abe") || username.equals("barb")) && password.equals("password")){
+            user = new User(username, password);
+        }
+        else{
+            return null;
+        }
+        return user;
     }
 }

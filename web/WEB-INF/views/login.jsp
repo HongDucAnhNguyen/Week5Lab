@@ -13,16 +13,16 @@
     </head>
     <body>
         <h1>Hello from login!</h1>
-        <form method="POST" action="home" >
+        <form method="POST" action="login" >
             <label>Username: </label>
-            <input type="text"  name="username">
+            <input type="text"  name="username"value="${username}">
             <br>
             <label>Password: </label>
-            <input type="password"  name="password">
+            <input type="password"  name="password" value="${password}">
             <br>
             <input type="submit" value="Login">
         </form>
-        <p>${message}${logout}</p>
+        <p>${message}</p>
     </body>
 
 </html>
