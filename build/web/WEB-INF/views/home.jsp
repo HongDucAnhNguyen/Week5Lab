@@ -12,6 +12,9 @@
         <title>Home Page</title>
     </head>
     <body>
-        <h1>Hello from home page!</h1>
+        <h1>Home Page</h1>
+        <h2>What's goodie ${user.username}, not gonna lie you look hella ugly</h2>
+        <a href="login" >Log out</a>
     </body>
+    
 </html>
